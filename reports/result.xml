@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="51.808" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="User on the HRM Website" name="User Testing a Login Page - #1.1" time="28.189">
+<system-out><![CDATA[
+Given User on the Login Page................................................passed
+When User entering a values "Admin" and "admin123"..........................passed
+And User Clicking a Login button............................................passed
+Then Website take a User to Home Page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User on the HRM Website" name="User Testing a Login Page - #1.2" time="23.435">
+<system-out><![CDATA[
+Given User on the Login Page................................................passed
+When User entering a values "Admin" and "admin".............................passed
+And User Clicking a Login button............................................passed
+Then Website take a User to Home Page.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
